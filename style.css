@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.Primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 12px 35px;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+/* Navbar css */
+.header{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-logo{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Banner Section css */
+.banner-main{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.banner-sub-title{
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.banner-description{
+    color: var(--Dark-03, #757575);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+/* Main Area Started -- CSS */
+
+
+main{
+    max-width: 1024px;
+    margin: 130px 100px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+.about{
+    text-align: center;
+}
+.section-title{
+    color: var(--Dark-01, #181818);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.seciton-description{
+    color: var(--Dark-03, #757575);
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.about-bottom-info{
+    display: flex;
+}
+
+.about-bottom-info ul{
+    list-style: none;
+}
+.about-bottom-info-sub-title{
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
